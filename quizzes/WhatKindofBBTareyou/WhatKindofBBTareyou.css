@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url("./BBT\ Background\ 4.jpg"); /* be careful it might break */ 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 50px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:link {
+    color: #fe796a;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #fe796a;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #fbdca4;
+  }
+  
+.wrapper-main {
+    width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Pixelify Sans';
+    text-shadow:
+    2px 2px 2px #000000,
+    -2px 2px 2px #000000,
+    -2px -2px 2px #000000,
+    2px -2px 2px #000000;
+    color: #f19693;
+    font-weight: 800;
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 35px;
+    font-family:  'VT323', monospace;
+    text-shadow:
+    2px 2px 2px #000000,
+    -2px 2px 2px #000000,
+    -2px -2px 2px #000000,
+    2px -2px 2px #000000;
+    color: #fbdca4;
+    font-weight: 400;
+    text-align: center;
+    max-width: 70%;
+}
+
+h3 {
+    font-size: 700%;
+    font-family: 'Pixelify Sans';
+    text-shadow:
+    3px 3px 3px #000000,
+    -2px 2px 2px #000000,
+    -2px -2px 2px #000000,
+    2px -2px 2px #000000;
+    color: #fbd79f;
+    font-weight: 600;
+    text-align: center;
+}
+
+h4 {
+    font-size: 350%;
+    font-family: 'Pixelify Sans';
+    text-shadow:
+    3px 3px 3px #000000,
+    -2px 2px 2px #000000,
+    -2px -2px 2px #000000,
+    2px -2px 2px #000000;
+    color: #fbd79f;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p img {
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+}
+
+p2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Pixelify Sans';
+    text-shadow:
+    2px 2px 2px #000000,
+    -2px 2px 2px #000000,
+    -2px -2px 2px #000000,
+    2px -2px 2px #000000;
+    color: #f19693;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer {
+    font-size: 14px;
+    font-family: 'Pixelify Sans';
+    color: #ffffff;
+    text-shadow:
+    2px 2px 2px #000000,
+    -1px 1px 1px #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000;
+    font-weight: 400;
+    margin-top: 30px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    width: 700px;
+    margin-top: 1px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+/*BUTTONS*/
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.begin-quiz-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the button */
+    align-items: center; /* Vertically center the button */
+}
+
+#begin-quiz {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 3rem 6rem;
+    text-align: center;
+    border: 0.1rem solid #f19693;
+    text-decoration: none;
+    font-family: 'Pixelify Sans';
+    color: #fdfdfd;
+    background-color: #f19693;
+    border-radius: 37px;
+}
+
+#begin-quiz:hover {
+        cursor: pointer;
+        background-color: #f47c7b;
+        color: #ffe4b3;
+        transform: none;
+        transition: transform 150ms;
+}
+
+
+.choices {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 400;
+    width: 500px;
+    height: 12rem;
+    text-align: center;
+    border: 0.1rem solid #f19693;
+    margin:auto;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    font-family: 'VT323', monospace;
+    color: #ffffff;
+    background-color: #f19693;
+    border-radius: 37px;
+}
+
+.choices:hover {
+    cursor: pointer;
+    background-color: #f47c7b;
+    color: #ffe4b3;
+    transform: none;
+    transition: transform 150ms;
+}
+
+#back-to-home,.share-button,#back-to-main-page {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    border: 0.1rem solid #f19693;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-family: 'Pixelify Sans';
+    color: #ffffff;
+    background-color: #f19693;
+    border-radius: 37px;
+}
+
+.share-button {
+    background-color:#f19693;
+}
+
+#back-to-home:hover,.share-button:hover,#back-to-main-page:hover {
+    background-color: #f47c7b;
+    border-color: #f47c7b;
+    color: #ffe4b3;
+}
+
+
+.share-button + #back-to-home {
+    margin-left: 20px;
+    align-items: center;
+}
+#back-to-home + #back-to-main-page{
+    margin-left: 20px;
+    align-items: center;
+}
+
+#quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#question-progress-image {
+    max-width: 100%;
+    height: auto;
+    width: 70%;
+    margin-bottom: 80px;
+}
+
+#question-image {
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+    margin-top: -25px;
+}
+
+#mbti-image {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+#mbti-image img{
+    max-width: 100%;
+    height: auto;
+    width: 350px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .wrapper-main {
+        width: 100%;
+        font-size: 60%;
+    }
+
+    body {
+        background-image: url("./BBT\ background\ 4.jpg"); /* be careful it might break */ 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+        padding: 40px 0;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 60px;
+        font-family: 'Pixelify Sans';
+        text-shadow:
+        2px 2px 2px #000000,
+        -2px 2px 2px #000000,
+        -2px -2px 2px #000000,
+        2px -2px 2px #000000;
+        color: #f19693;
+        font-weight: 800;
+        text-align: center;
+        max-width: 70%;
+        margin: 0 auto;
+        margin-top: -15px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-family: 'VT323', monospace;
+        text-shadow:
+        2px 2px 2px #000000,
+        -2px 2px 2px #000000,
+        -2px -2px 2px #000000,
+        2px -2px 2px #000000;
+        color: #fbdca4;
+        font-weight: 400;
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        font-size: 60px;
+        font-family: 'Pixelify Sans';
+        text-shadow:
+        3px 3px 3px #000000,
+        -2px 2px 2px #000000,
+        -2px -2px 2px #000000,
+        2px -2px 2px #000000;
+        color: #fbd79f;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 25px;
+        font-family: 'Pixelify Sans';
+        text-shadow:
+        3px 3px 3px #000000,
+        -2px 2px 2px #000000,
+        -2px -2px 2px #000000,
+        2px -2px 2px #000000;
+        color: #fbd79f;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p img {
+        max-width: 100%;
+        height: auto;
+        width:700px;
+        margin-top: 40px;
+
+    }
+
+    p2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-family: 'Pixelify Sans';
+    text-shadow:
+    2px 2px 2px #000000,
+    -2px 2px 2px #000000,
+    -2px -2px 2px #000000,
+    2px -2px 2px #000000;
+    color: #f19693;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header img {
+        max-width: 100%;
+        height: auto;
+        width: 700px;
+        margin-top: 10px;
+    }
+
+    footer {
+        font-size: 15px;
+        font-family: 'Pixelify Sans';
+        color: #ffffff;
+        text-shadow:
+        2px 2px 2px #000000,
+        -1px 1px 1px #000000,
+        -1px -1px 0 #000000,
+        1px -1px 0 #000000;
+        font-weight: 400;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+  
+    .begin-quiz-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    #begin-quiz {
+        font-size: 20px;
+        font-weight: 800;
+        padding: 8px;
+        width: 180px;
+        text-align: center;
+        border: 2rem solid #f19693;
+        text-decoration: none;
+        font-family: 'Pixelify Sans';
+        color: #ffffff;
+        background-color: #f19693;
+        border-radius: 37px;
+        margin-top: 50px;
+    }
+
+    #begin-quiz:hover {
+        cursor: pointer;
+        background-color: #f47c7b;
+        color: #ffe4b3;
+        transform: none;
+        transition: none;
+}
+
+    #choices {
+        display: block;
+        justify-content: center; 
+        align-items: center; 
+    }
+     .choices {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 400;
+        width: 320px;
+        height: 150px;
+        text-align: center;
+        border: 0.1rem solid #f19693;
+        margin:auto;
+        margin-bottom: 15px;
+        text-decoration: none;
+        font-family: 'VT323', monospace;
+        color: #ffffff;
+        background-color: #f19693;
+        border-color: #f19693;
+        border-radius: 37px;
+     }
+
+     .choices:hover {
+        cursor: pointer;
+        background-color: #f47c7b;
+        color: #ffe4b3;
+        transform: none;
+        transition: none;
+    }
+
+    #back-to-home,.share-button,#back-to-main-page {
+        font-size: 15px;
+        font-weight: 600;
+        width: 150px;
+        height: 60px;
+        text-align: center;
+        border: 0.1rem solid #f19693;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        font-family: 'Pixelify Sans';
+        color: #ffffff;
+        background-color: #f19693;
+        border-radius: 37px;
+    }
+
+    .share-button {
+        background-color:#f19693;
+    }
+
+  
+    .share-button + #back-to-home {
+        margin-left: 10px;
+        align-items: center;
+    }
+
+#back-to-home + #back-to-main-page {
+    margin-left: 10px;
+    align-items: center;
+}
+
+    #quiz {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #question-progress-image {
+        max-width: 100%;
+        height: auto;
+        width: 85%;
+        margin-top: -10px;
+    }
+
+    #question-image {
+        max-width: 100%;
+        height: auto;
+        width: 200px;
+        margin-top: -20px;
+    }
+
+    #mbti-image img{
+        max-width: 100%;
+        height: auto;
+        width: 600px;
+        margin-top: 10px;
+    }
+}
