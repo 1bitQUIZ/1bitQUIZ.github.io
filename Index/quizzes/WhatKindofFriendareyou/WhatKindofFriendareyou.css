@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url("./Friend\ Background.jpg"); /* be careful it might break */ 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 50px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-main {
+    width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: "Nosifer";
+    text-shadow:
+    2px 2px 2px #909f66,
+    -1px 1px 1px #909f66,
+    -1px -1px 0 #909f66,
+    1px -1px 0 #909f66;
+    color: #bde177;
+    font-weight: 400;
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+h2 { /* this is the question font*/
+    font-size: 28px;
+    font-family: 'Eater';
+    text-shadow:
+    2px 2px 2px #000000,
+    -2px 2px 2px #000000,
+    -2px -2px 0 #000000,
+    1px -1px 0 #000000;
+    color: #c6eb7d;
+    font-weight: 300;
+    text-align: center;
+    max-width: 90%;
+}
+
+h3 { /*This is the main title*/
+    font-size: 600%;
+    font-family: 'Frijole';
+    text-shadow:
+    2px 2px 2px #000000,
+    -2px 2px 2px #000000,
+    -2px -2px 0 #000000,
+    2px -1px 0 #000000;
+    color: #c6eb7d;
+    font-weight: 400;
+    text-align: center;
+}
+
+h4 { /* this is the caption under the main title */
+    font-size: 350%;
+    color: #c6eb7d;
+    font-family: 'Frijole';
+    text-shadow:
+    2px 2px 2px #000000,
+    -2px 2px 2px #000000,
+    -2px -2px 0 #000000,
+    1px -1px 0 #000000;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p img {
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+    margin-top: 1px;
+}
+
+p2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #c6eb7d;
+    font-family: 'Eater';
+    text-shadow:
+    2px 2px 2px #000000,
+    -1px 1px 1px #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer {
+    font-size: 14px;
+    font-family: 'Eater';
+    color: #c6eb7d;
+    text-shadow:
+    2px 2px 2px #000000,
+    -1px 1px 1px #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: center;
+}
+
+a:link {
+    color: #c6eb7d;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #c6eb7d;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #f08b18;
+  }
+  
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    width: 600px;
+    margin-top: 1px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+/*BUTTONS*/
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.begin-quiz-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the button */
+    align-items: center; /* Vertically center the button */
+}
+
+#begin-quiz {
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 2rem 4rem;
+    text-align: center;
+    border: 0.1rem solid #d47fd4;
+    text-decoration: none;
+    font-family: 'Eater';
+    color: #343057;
+    background-color: #d47fd4;
+    border-radius: 37px;
+}
+
+#begin-quiz:hover {
+        cursor: pointer;
+        background-color: #633e63;
+        color: #fbfbfb;
+        transform: none;
+        transition: transform 150ms;
+}
+
+
+.choices {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 400;
+    width: 500px;
+    height: 12rem;
+    text-align: center;
+    border: 0.1rem solid #f090f0;
+    margin:auto;
+    margin-bottom: 5rem;
+    text-decoration: none;
+    font-family: 'Eater';
+    color: #343057;
+    background-color: #f090f0;
+    border-radius: 37px;
+}
+
+.choices:hover {
+    cursor: pointer;
+    background-color: #633e63;
+    color: #fbfbfb;
+    transform: none;
+    font-weight: 500;
+    transition: transform 150ms;
+}
+
+#back-to-home,.share-button,#back-to-main-page {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0.1rem;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font-weight: 300;
+    border: 0.1rem solid #d47fd4;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-family: 'Eater';
+    color: #343057;
+    background-color: #d47fd4;
+    border-radius: 37px;
+}
+
+.share-button {
+    background-color:#d47fd4;
+}
+
+#back-to-home:hover,.share-button:hover,#back-to-main-page:hover {
+    background-color: #633e63;
+    border-color: #633e63;
+    color: #fbfbfb;
+    font-weight: 300;
+}
+
+/*Add margin between the buttons */
+.share-button + #back-to-home {
+    margin-left: 10px;
+    align-items: center;
+}
+
+/*Add margin between the buttons */
+#back-to-home + #back-to-main-page {
+    margin-left: 10px;
+    align-items: center;
+}
+
+/*UTILITIES*/
+#quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#question-progress-image {
+    max-width: 100%;
+    height: auto;
+    width: 70%;
+    margin-bottom: 80px;
+}
+
+#question-image {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    margin-top: -25px;
+}
+
+#mbti-image {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+#mbti-image img{
+    max-width: 100%;
+    height: auto;
+    width: 350px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .wrapper-main {
+        width: 100%;
+        font-size: 60%;
+    }
+
+    body {
+        background-image: url("./Friend\ Background.jpg"); /* be careful it might break */ 
+        background-position: 50% 50%;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        img {
+            max-width: 100%;
+            height: auto;
+          }
+        padding: 40px 0;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-family: 'Nosifer';
+        text-shadow:
+        2px 2px 2px #000000,
+        -1px 1px 1px #000000,
+        -1px -1px 0 #000000,
+        1px -1px 0 #000000;
+        color: #bde177;
+        font-weight: 800;
+        text-align: center;
+        max-width: 70%;
+        margin: 0 auto;
+        margin-top: -15px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-family: 'Eater';
+        text-shadow:
+        2px 2px 2px #000000,
+        -2px 2px 2px #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000;
+        color: #c6eb7d;
+        font-weight: 100;
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        font-size: 60px;
+        font-family: 'Frijole';
+        text-shadow:
+        2px 2px 2px #000000,
+        -2px 2px 2px #000000,
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000;
+        color: #c6eb7d;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 25px;
+        color: #c6eb7d;
+        font-family: 'Frijole';
+        text-shadow:
+        2px 2px 2px #000000,
+        -2px 2px 2px #000000,
+        -2px -2px 0 #000000,
+        1px -1px 0 #000000;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p img {
+        max-width: 100%;
+        height: auto;
+        width:700px;
+        margin-top: 40px;
+
+    }
+
+    p2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 400;
+        color: #c6eb7d;
+    font-family: 'Eater';
+    text-shadow:
+    2px 2px 2px #000000,
+    -1px 1px 1px #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header img {
+        max-width: 100%;
+        height: auto;
+        width: 700px;
+        margin-top: 10px;
+    }
+
+    footer {
+        font-size: 15px;
+        font-family: 'Eater';
+    color: #c6eb7d;
+    text-shadow:
+    2px 2px 2px #000000,
+    -1px 1px 1px #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000;
+        font-weight: 300;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /*BUTTONS*/
+    .begin-quiz-container {
+        display: flex;
+        justify-content: center; /* Horizontally center the button */
+        align-items: center; /* Vertically center the button */
+    }
+
+    #begin-quiz {
+        font-size: 20px;
+        font-weight: 800;
+        padding: 8px;
+        width: 180px;
+        font-weight: 400;
+        text-align: center;
+        border: 2rem solid #d47fd4;
+        text-decoration: none;
+        font-family: 'Eater';
+        color: #343057;
+        background-color: #d47fd4;
+        border-radius: 37px;
+        margin-top: 50px;
+    }
+
+    #begin-quiz:hover {
+        cursor: pointer;
+        background-color: #633e63;
+        color: #fbfbfb;
+        transform: none;
+        transition: none;
+}
+
+    #choices {
+        display: block;
+        justify-content: center; /* Horizontally center the button */
+        align-items: center; /* Vertically center the button */
+    }
+     .choices {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 400;
+        width: 320px;
+        height: 150px;
+        text-align: center;
+        border: 0.1rem solid #f090f0;
+        margin:auto;
+        margin-bottom: 15px;
+        text-decoration: none;
+        font-family: 'Eater';
+        color: #343057;
+        background-color: #f090f0;
+        border-color: #f090f0;
+        border-radius: 37px;
+     }
+
+     .choices:hover {
+        cursor: pointer;
+        background-color: #633e63;
+        color: #fbfbfb;
+        transform: none;
+        font-weight: 500;
+        transition: none;
+    }
+
+    #back-to-home,.share-button,#back-to-main-page {
+        font-size: 15px;
+        font-weight: 300;
+        width: 150px;
+        height: 60px;
+        text-align: center;
+        border: 0.1rem solid #d47fd4;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        font-family: 'Eater';
+        color: #343057;
+        background-color: #d47fd4;
+        border-radius: 37px;
+    }
+
+    .share-button {
+        background-color:#d47fd4;
+    }
+
+    /*Add margin between the buttons */
+    .share-button + #back-to-home {
+        margin-left: 10px;
+        align-items: center;
+    }
+
+/*Add margin between the buttons */
+#back-to-home + #back-to-main-page {
+    margin-left: 10px;
+    align-items: center;
+}
+    /*UTILITIES*/
+    #quiz {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #question-progress-image {
+        max-width: 100%;
+        height: auto;
+        width: 85%;
+        margin-top: -10px;
+    }
+
+    #question-image {
+        max-width: 100%;
+        height: auto;
+        width: 200px;
+        margin-top: -20px;
+    }
+
+    #mbti-image img{
+        max-width: 100%;
+        height: auto;
+        width: 600px;
+        margin-top: 10px;
+    }
+}
