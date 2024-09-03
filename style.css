@@ -412,8 +412,8 @@
         left: 5%;
         top: 20%;
         transform: translateY(-50%);
-        width: 50vw;
-        height: 40vh;
+        width: 60vw;
+        height: 90vh;
         display: flex;
         align-items: center;
         z-index: 1;
