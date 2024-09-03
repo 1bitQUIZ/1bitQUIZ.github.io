@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const backButton = document.getElementById('back-to-home');
 
     backButton.addEventListener('click', function() {
-        window.location.href = 'http://127.0.0.1:5500/quizzes/WhatKindofFriendareyou/WhatKindofFriendareyou.html'; 
+        window.location.href = 'https://1bitquiz.github.io/quizzes/WhatKindofFriendareyou/WhatKindofFriendareyou.html'; 
     });
 });
 
@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const backButton = document.getElementById('back-to-main-page');
 
     backButton.addEventListener('click', function() {
-        window.location.href = 'http://127.0.0.1:5500/index.html'; 
+        window.location.href = 'https://1bitquiz.github.io/'; 
     });
 });
 
