@@ -542,6 +542,7 @@
         transition: .5s ease;
         overflow: hidden;
         width: 100vw;
+        margin-right: 150px;
     }
     
     .item.active .img-item img {
