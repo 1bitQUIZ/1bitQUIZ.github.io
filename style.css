@@ -354,7 +354,14 @@
     .pixel {
         display: none
     }
-    
+    .navbar {
+        background-color: #ffdada; 
+        padding: 8px; 
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        width: 100%;
+    }
     .nav-button {
         display: inline-flex;
         justify-content: center;
@@ -390,6 +397,14 @@
         margin-right: 5px; 
         font-weight: 10;     
         font-family:  'VT323', monospace;
+    }
+    .top-section {
+        position: relative; 
+        z-index: 1;
+        background-color: #ffcaca;
+        width: 100%;
+        padding: 25px; 
+        text-align: left;
     }
 
     .top-section p {
