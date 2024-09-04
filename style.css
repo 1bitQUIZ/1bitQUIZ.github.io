@@ -404,6 +404,7 @@
     .carousel {
         height: 100vh;
         position: relative;
+        overflow: hidden;
     }
     
     .item .info-box {
@@ -516,6 +517,7 @@
         justify-content: center;
         align-items: center;
         transform: translateX(calc(var(--i) * 100%));
+        overflow: hidden;
     }
     
     .img-item img {
@@ -523,6 +525,7 @@
         filter: drop-shadow(0 0 10px rgba(0, 0, 0, .2));
         transform: scale(0);
         transition: .5s ease;
+        overflow: hidden;
     }
     
     .item.active .img-item img {
